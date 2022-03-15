@@ -5,16 +5,33 @@
 }
 
 body{
-    background-color: #216488;
+    background-color: rgb(25, 60, 112);
     font-family:'Hubballi', cursive;
     display: flex;
     flex-wrap: wrap;
     margin: 0;
 
 }
+
 .notes{
     background-color: white;
     margin:20px;
-    height:600px;
-    width:600px;
+    height:400px;
+    width:400px;
 }
+
+.notes .tools{
+    background-color: #4DD1F7;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.notes .tools button{
+    background-color: transparent;
+    border:none;
+    color:darkcyan;
+    font-size: 1rem;
+    margin-left:0.5rem;
+}
+
