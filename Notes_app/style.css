@@ -5,6 +5,16 @@
 }
 
 body{
+    background-color: #216488;
     font-family:'Hubballi', cursive;
+    display: flex;
+    flex-wrap: wrap;
     margin: 0;
+
+}
+.notes{
+    background-color: white;
+    margin:20px;
+    height:600px;
+    width:600px;
 }
