@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(25, 60, 112);
+    background-color: #3ECBF3 ;
     font-family:'Hubballi', cursive;
     display: flex;
     flex-wrap: wrap;
@@ -21,7 +21,7 @@ body{
 }
 
 .notes .tools{
-    background-color: #4DD1F7;
+    background-color:#F33E6F ;
     display: flex;
     justify-content: flex-end;
     padding: 0.5rem;
@@ -30,8 +30,22 @@ body{
 .notes .tools button{
     background-color: transparent;
     border:none;
-    color:darkcyan;
+    color:white;
     font-size: 1rem;
     margin-left:0.5rem;
 }
+
+.notes .main{
+    height: 100%;
+    width: 100%;
+}
+
+.notes textarea{
+    outline: none;
+    font-family: inherit;
+    border: none;
+    height:100%;
+    width:100%;
+}
+
 
